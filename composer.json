@@ -8,6 +8,7 @@
         "knplabs/knp-markdown-bundle": "^1.8",
         "sensio/framework-extra-bundle": "^5.5",
         "sensiolabs/security-checker": "^6.0",
+        "sentry/sentry-symfony": "^3.5",
         "symfony/asset": "5.1.*",
         "symfony/console": "5.1.*",
         "symfony/debug-pack": "^1.0",
