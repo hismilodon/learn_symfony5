@@ -8,6 +8,7 @@ use Twig\Environment;
 use App\Service\MarkdownHelper;
 use Psr\Log\LoggerInterface;
 
+
 class QuestionController extends AbstractController
 {
   private $logger;
@@ -32,13 +33,9 @@ class QuestionController extends AbstractController
    */
   public function show($slug, MarkdownHelper $markdownHelper)
   {
-    dump($this->getParameter('cache_adapter'));
-    dump($this);
     if ($this->isDebug) {
       $this->logger->info('We are in debug mode!');
     }
-
-    throw new \Exception('bad stuff happened again!');
 
     $answers = [
       'Make sure your cat is sitting `purrrfectly` still 🤣',
