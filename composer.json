@@ -36,7 +36,7 @@
         "symfony/yaml": "5.1.*"
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.0",
+        "symfony/maker-bundle": "^1.19",
         "symfony/profiler-pack": "^1.0",
         "symfony/test-pack": "*"
     },
